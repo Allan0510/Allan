@@ -4,8 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SysCode Screener</title>
+<link rel="stylesheet" href="styles.css">
 
-<style>
+
+<!-- <style>
 * {
     margin: 0;
     padding: 0;
@@ -160,7 +162,7 @@ tbody tr:hover {
     background: #f4f6f7;
     font-weight: 600;
 }
-</style>
+</style> -->
 </head>
 
 <body>
@@ -186,6 +188,7 @@ tbody tr:hover {
                     <th>SET Area</th>
                     <th>Zone Type</th>
                     <th>Time Zone</th>
+                    <th>XG</th>
                 </tr>
             </thead>
             <tbody id="dataBody"></tbody>
@@ -195,7 +198,7 @@ tbody tr:hover {
 </div>
 </div>
 
-<script>
+<!-- <script>
 const syscodeData = [
     {syscode: "9911", region: "Central", setArea: "New Mexico", zoneType: "Local", timeZone: "MST"},
     {syscode: "9793", region: "Central", setArea: "New Mexico", zoneType: "Local", timeZone: "MST"},
@@ -1508,6 +1511,7 @@ function handleKeyPress(e) {
 
 /* Load initial data */
 window.onload = () => renderTable(syscodeData, false);
-</script>
+</script> -->
+<script src="index.js"></script>
 </body>
 </html>
