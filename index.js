@@ -1268,7 +1268,7 @@ function renderTable(data, highlight = false) {
             <td>${highlight ? `<span class="highlight-set">${item.setArea}</span>` : item.setArea}</td>
             <td>${highlight ? `<span class="highlight-zone">${item.zoneType}</span>` : item.zoneType}</td>
             <td>${highlight ? `<span class="highlight-zone">${item.timeZone}</span>` : item.timeZone}</td>
-            <td>${highlight ? `<span class="highlight-zone">${item.timeZone}</span>` : item.XG}</td>
+            <td>${highlight ? `<span class="highlight-zone">${item.XG}</span>` : item.XG}</td>
         `;
         body.appendChild(row);
     });
@@ -1316,3 +1316,4 @@ function handleKeyPress(e) {
 
 /* Load initial data */
 window.onload = () => renderTable(syscodeData, false);
+
