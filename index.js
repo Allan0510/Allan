@@ -1,5 +1,6 @@
 const syscodeData = [
 {syscode: "809", region: "Central", setArea: "New Mexico", zoneType: "Local",XG: "Mountain", timeZone: "MTN"},
+{syscode: "1099", region: "Northeast", setArea: "Philadelphia", zoneType: "Local",XG: "Liberty", timeZone: "EST"},
 {syscode: "812", region: "Central", setArea: "New Mexico", zoneType: "Local",XG: "Mountain", timeZone: "MTN"},
 {syscode: "868", region: "Central", setArea: "New Mexico", zoneType: "Local",XG: "Mountain", timeZone: "MTN"},
 {syscode: "869", region: "Central", setArea: "New Mexico", zoneType: "Local",XG: "Mountain", timeZone: "MTN"},
@@ -1316,4 +1317,5 @@ function handleKeyPress(e) {
 
 /* Load initial data */
 window.onload = () => renderTable(syscodeData, false);
+
 
